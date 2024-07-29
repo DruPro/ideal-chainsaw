@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@keyframes logo1{
+    0%  {top: 0px}
+    20% {top: -100px;}
+    50% {top: -100px;}
+    70% {top: 0px;}
+   100% {top: 0px;}
+}
+
+@keyframes logo2{
+    0%  {top: 0px}
+    20% {top: -100px;}
+    50% {top: -100px;}
+    70% {top: 0px;}
+   100% {top: 0px;}
+}
+
+@keyframes hero_text_anim {
+    0%{top: 600px;}
+    100% {top: 0px;}
+}
+
+@keyframes page_slide_anim {
+    0%{left: -600px;}
+    100% {left: 0px;}
+}
+
+
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero_container
+{
+    background-image: url("Images/Modesto_Arch.jpg");
+    background-size:cover;
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero_txt1
+{   
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+
+
+    color: white;
+    text-shadow: 1px 5px 10px black;
+    font-size: 9em;
+    font-family: Roboto;
+    text-decoration: underline;
+
+    animation-name: hero_text_anim;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+
+}
+
+#hero_txt2
+{   
+    position: relative;
+    margin-left: 20px;
+    margin-right: 200px;
+
+    color: white;
+    text-shadow: 1px 5px 10px black;
+    font-size: 4em;
+    font-family: Roboto;
+    text-decoration: underline;
+
+    animation-name: hero_text_anim;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.story_section
+{
+    overflow: visible;
+    background-color: black;
+}
+.page
+{
+    position: relative;
+    font-family: Roboto;
+    color: rgb(2, 2, 57);
+    width: 600px;
+    height: auto;
+    background-color: white;
+    box-shadow: 5px 2px 20px black;
+    margin-left: 10px;
+    padding: 15px;
+    top: -350px;
+    
+    animation-name: page_slide_anim;
+    animation-duration: 2s;
+
+}
+
+
+.navbar_container
+{
+    position: relative;
+    width: 400px;
+
+    background-color: black;
+    border-left: 10px solid white;
+
+    justify-content: space-evenly;
+    
+    font-family: Roboto;
+    color: white;
+    margin-left: auto;
+
+    animation-name: hero_text_anim;
+    animation-duration: 2s;
+
+}
+
+#navbar_title
+{
+    margin-left: 20px; margin-right: 20px;
+}
+
+#navbar_section
+{
+    display: flex;
+    align-items: center;
+}
+
+#navbar_icon
+{
+    background-color: white;
+    height: 25px;
+    border-radius: 100px;
+    padding: 5px;
+    margin-left: 20px; margin-right: 20px;
+
+}
+
+#lin_image
+{
+    height: 30px;
+    margin: 20px;
+    border-bottom:  white solid;
+}
+
+.nav_bttn
+{
+    color: white;
+    font-family: Roboto;
+    border: solid white 1px;
+    padding: 5px;
+    background-color: black;
+    font-size: 1em;
+}
+
+
+
+.tech_label
+{
+    font-family: Roboto;
+    font-size: 3em;
+    text-align: center;
+}
+.tech_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.logo_container
+{
+    margin-left: 100px;
+    overflow: hidden;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logo_container img
+{
+    width:90px;
+    height: 90px;
+    object-fit:scale-down;
+}
+
+#logo1
+{
+    position: relative;
+
+
+
+    animation-name: logo1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#logo2
+{
+  position: relative;
+  margin-top: 10px;  
+  
+  animation-name: logo1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+}
+
+.education_container
+{
+    padding: 80px;
+    font-family: Roboto;
+    text-align: center;
+    background-color: black ;
+    color: white;
+
+}
+
+#education_img
+{
+    width: 100px;
+}

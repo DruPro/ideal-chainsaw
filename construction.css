@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.constuction_page
+{
+    padding: 0px;
+    background-image: url(Images/images.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: rgb(201, 168, 89);
+    height: 600px;
+    width: auto;
+}
+
+
+.constuction_page h1
+{
+    position: relative;
+    text-align: center;
+    top: 500px;
+    font-family: Roboto;
+
+}
